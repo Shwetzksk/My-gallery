@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  color: #4e5150;
+}
+body {
+  background-color: #ffff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.container {
+  margin: 5% auto;
+  width: 100%;
+  max-width: 950px;
+}
+a {
+  color: #a9a9a9;
+  text-decoration: none;
+}
+footer p {
+  font-size: 1.5rem;
+  margin: 1% 0;
+  color: #a9a9a9;
+}
+.profilePic img {
+  width: 156px;
+  height: 156px;
+  border-radius: 60px;
+}
+.name {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+}
+.usersCountry {
+  color: #a9a9a9;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  margin: 8px 0;
+}
+.account-data {
+  color: #4e5150;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+.userAccountInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2% 0;
+}
+.profile-data-box {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  height: 67px;
+  background-color: #e5e5e5;
+  border-radius: 16px;
+  text-align: center;
+  margin: 0 1%;
+  justify-content: center;
+}
+.userInfo {
+  margin: 16px 0;
+}
+.post-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 20px auto;
+}
+.post-image {
+  border-radius: 30px;
+  width: 100%;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+.pic1 {
+  max-width: 299px;
+  height: 299px;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.pic2 {
+  grid-row: 1/2;
+  grid-column: 2/4;
+  max-width: 629px;
+  height: 299px;
+}
+.pic3 {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  max-width: 627px;
+  height: 299px;
+}
+.pic4 {
+  grid-row: 2/4;
+  grid-column: 3/4;
+  max-width: 297px;
+  height: 630px;
+}
+.pic5 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  max-width: 299px;
+  height: 299px;
+}
+
+.pic6 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  max-width: 299px;
+  height: 299px;
+}
+
+.post-image:hover {
+  background-color: #ffff;
+  opacity: 0.3;
+  z-index: 2;
+}
+
+/***************Extra small devices***********************/
+@media (max-width: 575px) {
+  .profilePic img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 5rem;
+  }
+  .userProfileCard {
+    margin-bottom: 20px;
+  }
+  .name {
+    font-size: 1.8rem;
+  }
+  .account-data {
+    font-size: 1.5rem;
+  }
+  .profile-data-box {
+    min-width: 95px;
+  }
+  .container {
+    max-width: 370px;
+  }
+  .post-image {
+    padding: 0;
+    border-radius: 20px;
+  }
+  .pic1 {
+    max-width: 11rem;
+    height: 11rem;
+  }
+  .pic2 {
+    max-width: 23rem;
+    max-height: 11rem;
+  }
+  .pic3 {
+    width: 23rem;
+    height: 11rem;
+  }
+  .pic4 {
+    width: 11rem;
+    height: 24rem;
+  }
+  .pic5 {
+    width: 11rem;
+    height: 11rem;
+  }
+  .pic6 {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+/*************** lanscape phone*****************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    max-width: 550px;
+  }
+  .post-image {
+    padding: 0;
+    border-radius: 20px;
+    margin: auto;
+  }
+  .pic1 {
+    max-width: 16rem;
+    height: 16rem;
+  }
+  .pic2 {
+    max-width: 35rem;
+    height: 16rem;
+  }
+  .pic3 {
+    width: 34rem;
+    height: 17rem;
+  }
+  .pic4 {
+    width: 17rem;
+    height: 34rem;
+  }
+  .pic5 {
+    width: 16rem;
+    height: 16rem;
+  }
+  .pic6 {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+/*************Tablet and up*******************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 650px;
+  }
+  .post-image {
+    padding: 0;
+    border-radius: 20px;
+    margin: auto;
+  }
+  .pic1 {
+    max-width: 19rem;
+    height: 19rem;
+  }
+  .pic2 {
+    max-width: 42rem;
+    height: 19rem;
+  }
+  .pic3 {
+    width: 41rem;
+    height: 20rem;
+  }
+  .pic4 {
+    width: 20rem;
+    height: 40rem;
+  }
+  .pic5 {
+    width: 19rem;
+    height: 19rem;
+  }
+  .pic6 {
+    width: 19rem;
+    height: 19rem;
+  }
+}

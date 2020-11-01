@@ -36,8 +36,6 @@
 
 ## Overview
 
-![screenshot](https://shwetzksk.github.io/My-gallery/)
-
   User story: I can see a page following the given design
   
 - It was fun doing this challenge. With each new challenges I got oppurtunity to learn, explore and to got better with my skill.

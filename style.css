@@ -123,13 +123,79 @@ footer p {
   z-index: 2;
 }
 
+/*************** for below 338px screens******************/
+@media (max-width: 338px) {
+  .container {
+    max-width: 280px;
+  }
+  .profilePic img {
+    width: 130px;
+    height: 130px;
+    border-radius: 40px;
+  }
+  .name {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .usersCountry {
+    font-size: 1.3rem;
+    line-height: 1rem;
+  }
+  .account-data {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .profile-data-box {
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .post-image {
+    border-radius: 15px;
+    width: 100%;
+    padding: 0;
+    margin: 5px;
+  }
+
+  .pic1 {
+    max-width: 9rem;
+    height: 9rem;
+  }
+  .pic2 {
+    max-width: 19rem;
+    max-height: 9rem;
+    margin: auto;
+  }
+  .pic3 {
+    width: 19rem;
+    height: 9rem;
+  }
+  .pic4 {
+    width: 9rem;
+    height: 19rem;
+    margin: auto;
+  }
+  .pic5 {
+    width: 9rem;
+    height: 9rem;
+  }
+  .pic6 {
+    width: 9rem;
+    height: 9rem;
+  }
+  footer p {
+    font-size: 1.2rem;
+    margin: 5% 0;
+  }
+}
 /***************Extra small devices***********************/
-@media (max-width: 575px) {
+@media (min-width: 338px) and (max-width: 575px) {
   .profilePic img {
     width: 12rem;
     height: 12rem;
     border-radius: 5rem;
   }
+
   .userProfileCard {
     margin-bottom: 20px;
   }
